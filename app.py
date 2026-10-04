@@ -85,7 +85,7 @@ def load_model():
             f"Model not found: {MODEL_PATH}"
         )
 
-    model = tf.keras.models.load_model(
+    model = tf.keras.models.load_model(MODEL_PATH, compile=False)(
         str(MODEL_PATH),
         compile=False
     )
