@@ -23,7 +23,7 @@ st.set_page_config(
     layout="wide"
 )
 
-MODEL_PATH = Path("models/mobilenetv2_final.keras")
+MODEL_PATH =Path("mobilenetv2_final.keras")
 OUTPUT_DIR = Path("outputs/streamlit_demo")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
